@@ -1,0 +1,27 @@
+.herosection {
+    background-image: url(../../assets/images/post-image.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.herosection__texto {
+    color: $white;
+    padding: 320px 20px 0 20px;
+    text-align: center;
+}
+i {
+    color: $white;
+    padding: 110px 0px 0px 47%;   
+}
+
+@media (min-width: 480px) {
+    .herosection__texto {
+        padding: 340px 25% 0 25%;
+    }
+    span {
+        color: $ruddy-pink;
+    }
+}
+    
+
+

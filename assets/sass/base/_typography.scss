@@ -1,0 +1,38 @@
+h1 {
+    font-family: $playfair;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+}
+h2 {
+    font-family: $playfair;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+}
+h3 {
+    font-family: $playfair;
+    font-weight: 400;
+    font-size: 18px;
+}
+h4 {
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: 16px;
+}
+h5 {
+    font-family: $roboto;
+    font-weight: 300;
+    font-size: 12px;
+}
+p {
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (min-width: 480px) {
+    h1{
+        font-size: $xx-large;
+    }
+}

@@ -1,0 +1,21 @@
+#pagination {
+    background-color: $platinum;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.page-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-link {
+    color: $raisin-black;
+    font-family: $roboto;
+    font-size: 18px;
+    font-weight: 400;
+}

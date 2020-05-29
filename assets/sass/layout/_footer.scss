@@ -1,0 +1,21 @@
+footer {
+    height: 200px;
+    background-color: $eerie-black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;   
+}
+.footer_logo {
+    width: 80px;
+    padding-bottom: 70px;
+}
+
+@media (min-width: 480px) {
+    .footer_logo {
+        width: 150px;
+        padding-bottom: 60px;
+    }
+}
