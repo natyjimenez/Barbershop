@@ -2,7 +2,6 @@
     border-radius: 25px;
     font-size: $small;
 }
-
 .container__btn {
     background-color: $nickel;
     border-color: $nickel;
@@ -18,4 +17,9 @@
 
 }
 
-
+@media (min-width: 480px) {
+    .btn {
+        font-size: $large;
+    }
+}
+    

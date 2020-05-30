@@ -9,18 +9,24 @@
     align-content: center;
     align-items: center;
 }
-.page-link{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 .page-link {
     color: $raisin-black;
     font-family: $roboto;
-    font-size: 18px;
+    font-size: $medium;
     font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     &:hover {
         background-color: $nickel;
         color: $white;
     }
+}
+
+@media (min-width: 480px) {
+    .page-link {
+        font-size: $large;
+    }
+    
 }
