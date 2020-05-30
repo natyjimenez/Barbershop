@@ -9982,6 +9982,13 @@ p {
   color: #D76C69;
 }
 
+.nav-link {
+  color: #FFF !important;
+}
+.nav-link:hover {
+  color: #E56353 !important;
+}
+
 .herosection {
   background-image: url(../../assets/images/post-image.jpg);
   height: 800px;
@@ -10004,10 +10011,6 @@ i {
   .herosection__texto {
     padding: 340px 25% 0 25%;
   }
-
-  span {
-    color: #D76C69;
-  }
 }
 .article__container {
   color: #6C6E70;
@@ -10018,6 +10021,15 @@ i {
   line-height: 35px;
 }
 
+.container__texto span {
+  color: #D76C69;
+  font-size: medium;
+}
+
+#destacado {
+  border-top: 2px solid #E6E7E7;
+}
+
 .destacado__img {
   width: 100%;
   border-radius: 50%;
@@ -10025,10 +10037,18 @@ i {
 
 .destacado__name {
   text-align: center;
+  line-height: 30px;
 }
 
-.destacado__name {
-  line-height: 30px;
+.destacado__name a {
+  color: #ECBCBA;
+  text-decoration: none;
+}
+.destacado__name a:hover {
+  color: #6C6E70;
+}
+.destacado__name a:active {
+  color: #E6E7E7;
 }
 
 .destacado__texto {
@@ -10091,6 +10111,10 @@ span {
   font-size: 18px;
   font-weight: 400;
 }
+.page-link:hover {
+  background-color: #6C6E70;
+  color: #FFF;
+}
 
 footer {
   height: 200px;
@@ -10117,6 +10141,18 @@ footer {
 .btn {
   border-radius: 25px;
   font-size: 12px;
+}
+
+.container__btn {
+  background-color: #6C6E70;
+  border-color: #6C6E70;
+}
+.container__btn:hover {
+  background-color: #E6E7E7;
+  border-color: #E6E7E7;
+}
+.container__btn:focus {
+  border-color: #E6E7E7;
 }
 
 /*# sourceMappingURL=main.css.map */

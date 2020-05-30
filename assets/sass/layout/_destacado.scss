@@ -1,13 +1,27 @@
+#destacado {
+    border-top: 2px solid $platinum;
+}
 .destacado__img {
     width: 100%;
     border-radius: 50%;
 }
 .destacado__name {
     text-align: center;
-}
-.destacado__name {
     line-height : 30px;
 }
+.destacado__name a {
+    color: $spanish-pink;
+    text-decoration: none;
+    
+    &:hover {
+        color: $nickel;
+    }
+
+    &:active {
+        color: $platinum;
+    }
+}
+
 .destacado__texto {
     display: none;
 }

@@ -18,4 +18,9 @@
     font-family: $roboto;
     font-size: 18px;
     font-weight: 400;
+
+    &:hover {
+        background-color: $nickel;
+        color: $white;
+    }
 }

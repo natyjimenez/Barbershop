@@ -3,4 +3,19 @@
     font-size: $small;
 }
 
+.container__btn {
+    background-color: $nickel;
+    border-color: $nickel;
+   
+    &:hover {
+        background-color: $platinum;
+        border-color: $platinum;
+    }
+
+    &:focus {
+        border-color: $platinum;
+    }
+
+}
+
 
