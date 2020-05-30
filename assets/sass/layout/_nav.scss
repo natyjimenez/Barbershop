@@ -6,16 +6,14 @@
     width: 80px;
 }
 #navbarNavDropdown {
-    font-size: $large;
+    font-size: $medium;
     font-weight: 400;
     color: #FFFFFF;
-    text-align: center;   
+    text-align: center;
+    background-color: $eerie-black; 
   }
-#btn-active {
-    color: $ruddy-pink;
-}
 .nav-link {
-    color:$white !important;
+    color: $white !important;
     
     &:hover {
         color: $fuzzy-wuzzy !important;

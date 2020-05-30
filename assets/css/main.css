@@ -9972,14 +9972,11 @@ p {
 }
 
 #navbarNavDropdown {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
   text-align: center;
-}
-
-#btn-active {
-  color: #D76C69;
+  background-color: #121619;
 }
 
 .nav-link {
